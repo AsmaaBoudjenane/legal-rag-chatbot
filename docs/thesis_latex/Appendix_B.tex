@@ -1,0 +1,18 @@
+% ====== Appendix Section ======
+
+\appendix
+\chapter*{Appendix}  % Unnumbered chapter
+\pagestyle{fancy}
+\lhead{\textbf{\footnotesize\itshape Appendix}}  % Left header
+\rhead{}  % Right header empty
+\pagenumbering{gobble}  % Turn off page numbering
+
+% Include the PDF ON THE SAME PAGE
+\vspace*{-3em}  % Pulls the PDF up closer to the title (adjust as needed)
+\includepdf[
+pages=-,
+scale=0.8,
+pagecommand={},  % Remove automatic page styling
+offset=0 -1cm,  % Fine-tune vertical position
+  % Optional: Add border for debugging
+]{INA-250047.pdf}

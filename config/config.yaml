@@ -1,0 +1,30 @@
+model:
+  embedding_model: "intfloat/multilingual-e5-large"
+  generator_model: "aubmindlab/aragpt2-base"
+  device: "cuda"
+  
+data:
+  legal_data_path: "data/raw/legal-data.xlsx"
+  qa_data_path: "data/qa_evaluation/qa_legal_rag_data.xlsx"
+  cleaned_legal_path: "data/processed/legal_cases_data_cleaned.xlsx"
+  cleaned_qa_path: "data/processed/qa_legal_rag_cleaned.xlsx"
+  
+chunking:
+  chunk_size: 300
+  chunk_overlap: 50
+  
+retrieval:
+  top_k: 5
+  similarity_threshold: 0.6
+  embedding_method: "mean"
+  
+training:
+  batch_size: 2
+  epochs: 20
+  max_length: 1024
+  learning_rate: 5e-5
+  
+generation:
+  max_new_tokens: 250
+  num_beams: 4
+  no_repeat_ngram_size: 2

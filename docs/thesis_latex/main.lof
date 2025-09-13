@@ -1,0 +1,35 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Neural language model architecture. . }}{7}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The two Word2Vec architectures: the CBOW model and Skip-gram model.}}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Cumulative growth of arXiv papers mentioning ``language model'' and ``large language model,'' highlighting the sharp increase after the release of ChatGPT.}}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces History and development of language models.}}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The Transformer - model architecture.}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Encoder and Decoder Stacks}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Training Tokenization in Full, Prefix, and Masked Language Modeling.}}{18}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces General architecture of an AI agent system. }}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces A single-agent system architecture . }}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces A multi-agent system architecture. }}{26}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Retrieval-Augmented Generation architecture}}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Types of RAG Systems}}{34}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces High-level architecture of an Agentic RAG system.}}{37}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Recommendation System Process}}{41}{figure.caption.29}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Basic retrieval}}{45}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Precision in Document Ranking}}{47}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Recall in Document Ranking}}{48}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mixture of Logits(MoL) learned similarity.}}{52}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces propused solution steps}}{53}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparison of K changes across epochs for different datasets}}{58}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Comparison of Models Across Evaluation Metrics}}{59}{figure.caption.39}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The detailed pipeline used for the creation of both the legal case dataset and the question-answer QA}}{63}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Architecture of the Arabic RAG-Based Agent for Legal Data. The Agent takes Arabic natural-language questions as input and returns answers grounded in real legal case context. It integrates preprocessing, semantic retrieval, and generation agent. }}{64}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces An overview of the training pipeline for the RAG agent }}{66}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Training Loss over Epochs}}{72}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Retrieval performance metrics across different top-K values. The histogram shows consistent improvement in Recall@K, MRR@K, and Hit@K as K increases.}}{73}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Retrieval performance on a sample legal query showing the top-3 results with similarity scores. }}{74}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces An example from the Arabic legal assistant interface showing rejection of an irrelevant question ("What is NLP?") because it is not written in formal Arabic. This reflects the Agent ability to filter non-domain input during inference.}}{75}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Interactive interface of the Intelligent Legal Assistant Agent.}}{76}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Interface of the Arabic Legal RAG Assistant showing a successful answer to a general legal query using the case title. The Agent retrieves relevant case data and generates a comprehensive legal response .}}{77}{figure.caption.56}%

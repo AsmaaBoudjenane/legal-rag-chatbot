@@ -1,0 +1,125 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Database file #1: Biblio.bib
+Warning--entry type for "barnard2024word" isn't style-file defined
+--line 157 of file Biblio.bib
+Warning--entry type for "vectorize2025agentarchitectures" isn't style-file defined
+--line 325 of file Biblio.bib
+Warning--entry type for "google2025aiagent" isn't style-file defined
+--line 343 of file Biblio.bib
+I was expecting a `,' or a `}'---line 395 of file Biblio.bib
+ :  
+ :  url          = {https://openreview.net/forum?id=Ua6zuk0WRH},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 491 of file Biblio.bib
+ :  
+ :  title        = {A Survey of Large Language Models},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "ibm2024" isn't style-file defined
+--line 717 of file Biblio.bib
+I was expecting a `,' or a `}'---line 727 of file Biblio.bib
+ :  
+ :  note         =  {2024-08-22}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "aisera2024agentic" isn't style-file defined
+--line 731 of file Biblio.bib
+Warning--entry type for "ahmed2024agenticrag" isn't style-file defined
+--line 749 of file Biblio.bib
+Warning--entry type for "pareto2024rag" isn't style-file defined
+--line 853 of file Biblio.bib
+Warning--entry type for "selvaraj2024" isn't style-file defined
+--line 913 of file Biblio.bib
+I was expecting an "="---line 973 of file Biblio.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "lexemoRAG" isn't style-file defined
+--line 1073 of file Biblio.bib
+Warning--entry type for "geeksforgeeks2022precision" isn't style-file defined
+--line 1183 of file Biblio.bib
+Warning--entry type for "deconvoluteai2024metrics" isn't style-file defined
+--line 1197 of file Biblio.bib
+Warning--entry type for "enwiki:1262179867" isn't style-file defined
+--line 1229 of file Biblio.bib
+Warning--entry type for "tensorrt_llm_beam_search" isn't style-file defined
+--line 1317 of file Biblio.bib
+Warning--entry type for "zheng2024enhancing" isn't style-file defined
+--line 1331 of file Biblio.bib
+Warning--entry type for "gfg2025tfidf" isn't style-file defined
+--line 1379 of file Biblio.bib
+Warning--entry type for "enwiki:1276232158" isn't style-file defined
+--line 1461 of file Biblio.bib
+Warning--entry type for "maruti_recsys" isn't style-file defined
+--line 1685 of file Biblio.bib
+Name 2 in "Hijazi, Faris and Alharbi, and others" has a comma at the end for entry arablegaleval2024
+while executing---line 1347 of file plainnat.bst
+Warning--empty journal in cho2014learning
+Warning--empty journal in clark2019what
+Warning--empty booktitle in DiPalma
+Warning--empty journal in gao2024retrieval
+Warning--empty booktitle in HamoudaSidhoum2024
+Name 2 in "Hijazi, Faris and Alharbi, and others" has a comma at the end for entry arablegaleval2024
+while executing---line 1429 of file plainnat.bst
+Name 2 in "Hijazi, Faris and Alharbi, and others" has a comma at the end for entry arablegaleval2024
+while executing---line 1429 of file plainnat.bst
+Warning--empty journal in legalrag2024
+Warning--empty year in lexemoRAG
+Warning--empty booktitle in Naveed2023
+Warning--empty year in NiklausMSCH24
+Warning--empty year in NiklausMSCH24
+Warning--empty booktitle in salemi2023evaluating
+Warning--empty journal in wang2023language
+Warning--empty title in openlm2023survey
+Warning--empty journal in openlm2023survey
+Warning--empty year in openlm2023survey
+Warning--empty year in openlm2023survey
+You've used 83 entries,
+            2773 wiz_defined-function locations,
+            1100 strings with 24717 characters,
+and the built_in function-call counts, 43987 in all, are:
+= -- 3917
+> -- 2969
+< -- 61
++ -- 1006
+- -- 922
+* -- 3501
+:= -- 6775
+add.period$ -- 341
+call.type$ -- 83
+change.case$ -- 528
+chr.to.int$ -- 82
+cite$ -- 182
+duplicate$ -- 1922
+empty$ -- 3239
+format.name$ -- 1035
+if$ -- 9336
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 70
+newline$ -- 496
+num.names$ -- 344
+pop$ -- 1145
+preamble$ -- 1
+purify$ -- 449
+quote$ -- 0
+skip$ -- 1631
+stack$ -- 0
+substring$ -- 1114
+swap$ -- 357
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 893
+warning$ -- 16
+while$ -- 329
+width$ -- 0
+write$ -- 1215
+(There were 7 error messages)

@@ -1,0 +1,60 @@
+\chapter*{General introduction}
+\pagestyle{fancy}\lhead{\textbf \footnotesize\it{General introduction}}
+\pagestyle{fancy}\chead{} \pagestyle{fancy}\rhead{}
+\pagestyle{fancy}\cfoot{} \pagestyle{fancy}\rfoot{\thepage}
+\pagenumbering{arabic}
+\addcontentsline{toc}{chapter}{General introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Context :}
+In recent years, the legal domain has witnessed growing interest in leveraging Natural Language Processing (NLP) and automation to enhance access to and retrieval of juridical data. Legal texts—such as statutes, court decisions, and regulations—are inherently complex, context-dependent, and linguistically nuanced, often employing regionally specific language. This complexity poses challenges not only for laypersons but also for legal practitioners, particularly in multilingual and jurisdiction-specific systems like Algeria’s \citep{HamoudaSidhoum2024}, where  legal data remains largely unstructured  or does not have the ability to be searched.
+
+Large Language Models (LLMs) have emerged as powerful tools for understanding and generating human-like text, showing advanced potential in legal question answering, summarizing cases, and classifying documents \citep{Naveed2023}. However, their reliance on static training data limits their ability to capture the dynamic, high-stakes nature of legal knowledge. To address this, Retrieval-Augmented Generation (RAG) architectures integrate LLMs with external knowledge retrieval systems\citep{lewis2020retrieval}, enabling real-time access to relevant documents during inference and thereby improving the accuracy and contextual grounding of outputs.
+
+Although these advances have been made, several challenges persist—particularly in the selection of the most relevant documents from large legal corpora. Poor retrieval quality can significantly degrade the performance and reliability of RAG-based systems. Therefore, refining the retrieval process remains a crucial area of research, especially in low-resource and domain-specific contexts \citep{Information_Retrieval}. Furthermore, the rise of Agentic AI— AI systems capable of autonomous, goal-directed behavior—introduces new opportunities for retrieval and reasoning in NLP\citep{aisera2024agentic}, warranting further exploration.
+\section*{Problem Statement :} 
+While LLMs and RAG architectures hold significant promise for legal AI applications, their efficacy is often hampered by weaknesses in the retrieval process:
+
+\begin{itemize}
+	\item Weaknesses in Retrieval: Fixed k-value(number of documents), RAG depend on a retrieval step (fetching relevant documents from a database) to ground LLM outputs, poor retrieval quality (e.g., irrelevant or incomplete documents) leads to
+	\begin{itemize}
+		\item Hallucinations: The LLM generates  incorrect or fabricated information.
+		\item  Insufficient context retrieval leads to information deficit in generated responses and excessive context retrieval creates noise pollution in the knowledge grounding proces.
+		\item Contextual Misalignment: Retrieved documents may not match the nuanced intent of the user’s query.
+		
+	\end{itemize} 
+	\item Domain-Specific Barriers:
+	\begin{itemize}
+		\item Low-Resource Language: Arabic legal NLP lacks annotated datasets, standardized vocabularies, and pre-trained models compared to English.
+		\item Unstructured Data: Algerian legal texts (e.g., court rulings, statutes) are often PDFs or scanned documents without metadata, making systematic retrieval difficult.
+		\item Multilingual Complexity: Legal texts in Algeria mix Modern Standard Arabic (MSA), Arabic diacritics, and French, further complicating retrieval and analysis.
+	\end{itemize}
+
+
+\end{itemize}
+ \section*{Objectives :} 
+This research investigates the integration of LLMs and retrieval systems in the legal domain, with emphasis on the Algerian juridical context. Key objectives include:   
+
+\begin{itemize}
+	\item Examining the potential of LLMs and Agentic RAG models for processing Arabic legal texts.
+	\item Addressing challenges in document retrieval, particularly the k-selection problem (identifying the optimal number of candidate documents).
+	\item Developing and sharing a curated dataset of Algerian legal cases in Arabic, advancing resources for low-resource legal NLP.
+\end{itemize}
+\section*{Contributions :} This thesis makes the following contributions:
+    \begin{itemize}  
+	\item Review of LLMs in Retrieval-Augmented Generation (RAG): we provide a comprehensive review of LLMs in RAG systems, with specific analysis of their applications and limitations in legal contexts, particularly for Arabic and multilingual juridical data.
+    \item Dynamic Candidate Selection: we propose a novel dynamic k-selection method that automatically optimizes the number of retrieved documents based on query characteristics and relevance thresholds. (submitted to the Journal of Artificial Intelligence Research).
+    \item Arabic Legal Case Dataset: we contribute two new datasets for Arabic legal NLP: a curated collection of Algerian Supreme Court rulings with legal annotations, and a synthetic QA dataset derived from these cases. These resources address the current scarcity of Arabic legal data for research and development.
+    \item Arabic RAG-Based Agent for Legal and Juridical Data: A domain-specific conversational agent that understands natural Arabic legal queries, retrieves relevant Algerian case and generates accurate, grounded responses while recommending pertinent legal materials (submitted to ICAITA25).
+  \end{itemize}
+\section*{Structure :} 
+The thesis is organized into four main chapters: 
+\begin{itemize}
+	\item Chapter 1:Large Language Models—Overview of LLMs, with emphasis on legal NLP and the role of Agentic AI in autonomous legal reasoning.
+	
+	\item Chapter 2:Retrieval-Augmented Generation – A detailed examination of RAG architectures, their strengths, and limitations, with a focus on applications in both legal and recommendation systems.
+	
+	\item Chapter 3:Candidate Selection in Retrieval – The chapter reviews existing k selection methods, followed by a proposed dynamic selection method to improve retrieval efficiency and generation quality.
+
+	\item Chapter 4:Implementation—Design and evaluation of the Arabic RAG-Based Agent, detailing the full pipeline and its agentic capabilities.
+\end{itemize}
+%%%\newpage

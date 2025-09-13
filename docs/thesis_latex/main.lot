@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Selected Large Language Models with key attributes.}}{15}{table.1.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Notation Table }}{52}{table.caption.33}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Summary of MovieLens datasets}}{56}{table.caption.36}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Performance Across Configurations}}{57}{table.caption.37}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of the datasets used in the Arabic Legal RAG Agent}}{62}{table.caption.40}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Core architectural specifications of the decoder-only transformer model used in this work}}{71}{table.caption.46}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Summary of key hyperparameters configured for model fine-tuning}}{71}{table.caption.47}%
