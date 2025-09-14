@@ -144,7 +144,6 @@ Licensed under the MIT License
 
 ##  Authors
 [Boudjenane zoubida asmaa]
-Developed by Boudjenane ZoubidaAsmaa
 Master's in Intelligent Systems Engineering/Computer Science
 📧 Contact: zoubida.boudjenane@univ-mascara.dz
 🔗 GitHub: AsmaaBoudjenane
