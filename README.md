@@ -144,10 +144,11 @@ Licensed under the MIT License
 
 ##  Authors
 [Boudjenane zoubida asmaa]
-- Master's in  Intelligent Systems Engineering/Computer Science
-- University of Mascara
-- Email: zoubida.boudjenane@univ-mascara.dz
-- Thesis: docs/main.pdf
+Developed by Boudjenane ZoubidaAsmaa
+Master's in Intelligent Systems Engineering/Computer Science
+📧 Contact: zoubida.boudjenane@univ-mascara.dz
+🔗 GitHub: AsmaaBoudjenane
+Thesis: docs/main.pdf
 
 [Mohammed Salem]
 
